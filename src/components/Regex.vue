@@ -321,6 +321,11 @@ export default {
       <input type="text" class="regex-search" v-model="searchText" placeholder="搜尋關鍵字，如：銀行">
     </div>
   </div>
+  <div class="share-wrap">
+    <div class="container">
+      <a href="https://github.com/KenKyouu/regex/issues/new?title=提供更多好用正則" class="regex-share" target="_blank" rel="noreferrer noopener">提供更多好用正則</a>
+    </div>
+  </div>
   <div class="regex-wrap">
     <div class="container">
       <div class="each-regex" v-for="(regex, index) in filtered">
